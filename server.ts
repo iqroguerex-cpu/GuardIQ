@@ -3,7 +3,7 @@ import { createServer as createViteServer } from "vite";
 import Database from "better-sqlite3";
 import path from "path";
 import dotenv from "dotenv";
-import { generateCyberQuestion, getChatbotResponse } from "./services/aiService.ts";
+import { generateCyberQuestion, getChatbotResponse } from "./services/aiService";
 
 dotenv.config();
 
