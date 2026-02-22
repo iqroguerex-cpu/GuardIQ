@@ -6,7 +6,10 @@
   "scripts": {
   "dev": "tsx server.ts",
   "build": "vite build && tsc",
-  "start": "node dist/server.js"
+  "start": "node dist/server.ts",
+  "preview": "vite preview",
+  "clean": "rm -rf dist",
+  "lint": "tsc --noEmit"
   },
   
   "dependencies": {
@@ -34,3 +37,5 @@
     "vite": "^6.2.0"
   }
 }
+
+
